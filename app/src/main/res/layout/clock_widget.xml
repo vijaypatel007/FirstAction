@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="#F5F5F5"
+    android:background="#FFFFFF"
     android:gravity="center">
 
     <!-- Hours Display (HH) -->

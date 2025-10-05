@@ -12,6 +12,8 @@ enum class PatternType {
     CROSS            // + (cross)
 }
 
+fun PatternType.toIndex(): Int = this.ordinal
+
 object DigitPatterns {
     // Each digit is represented as 4x6 grid (4 columns, 6 rows)
     // Total 24 positions per digit
